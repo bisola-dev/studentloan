@@ -147,8 +147,8 @@ if (empty($fullName) || empty($matricNumber) || empty($Current_session) || empty
 
                 <input type="text" id="nin" name="nin" pattern="\d{11}" title="NIN must be exactly 11 digits" required>
 
-                <label for="jamb">Please enter your JAMB number (10, 11, 12, or up to 14 alphanumeric characters):</label>
-                 <input type="text" id="jamb" name="jamb" pattern="^[A-Za-z0-9]{10,14}$" title="JAMB number must be between 10 and 14 alphanumeric characters" required>
+                <label for="jamb">Please enter your JAMB number (10, 11, 12, or up to 16 alphanumeric characters):</label>
+                 <input type="text" id="jamb" name="jamb" pattern="^[A-Za-z0-9]{10,16}$" title="JAMB number must be between 10 and 16 alphanumeric characters" required>
 
                 <label for="email">Personal Email:</label>
                 <input type="email" id="email" name="email" required>
